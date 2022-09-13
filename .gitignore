@@ -1,0 +1,34 @@
+# NPM / Yarn
+node_modules
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Rollup build output
+**/dist
+firebase/*
+firestore/*
+auth/*
+database/*
+storage/*
+
+# OS files
+.DS_Store
+
+# Testing output
+.nyc_output
+coverage
+
+# test files
+/example
+
+
+# npm pack output
+*.tgz
+
+
+# env
+.env
+
+# firebase log files
+*.log
